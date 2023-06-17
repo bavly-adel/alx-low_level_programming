@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* This is the main function of the program. It returns 0 to indicate successful execution. */
+/* This is the main function of the program. */
 int main(void)
 {
 int i;
