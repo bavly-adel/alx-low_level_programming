@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main: program to print message using puts instead of printf 
+*main: print message using puts
 *Return: 0 (Success)
 */
 int main(void)
