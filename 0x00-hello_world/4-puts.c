@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+*program to print msg
 *main: print message using puts
 *Return: 0 (Success)
 */
