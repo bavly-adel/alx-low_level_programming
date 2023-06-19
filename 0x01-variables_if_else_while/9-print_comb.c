@@ -6,7 +6,7 @@ printf("%d", j);
 if (j == 9) {
 printf("\n");
 }else {
-printf(", ")
-}    
+printf(", ");
+}
  return (0);
 }
