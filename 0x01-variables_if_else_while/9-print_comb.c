@@ -1,17 +1,19 @@
 #include <stdio.h>
-int main() {
+int main(void)
+{
 int j;
 for (j = 0; j < 10; j++)
 {
-printf("%d", j);
+putchar(j);
 if (j == 9)
 {
-printf("\n");
+putchar('\n');
 }
 else
 {
-printf(", ");
+putchar(',');
+putchar(' ');
 }
 }
- return (0);
+return (0);
 }
