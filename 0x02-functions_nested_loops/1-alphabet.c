@@ -11,5 +11,6 @@ for(i=97;i<123;i++)
 {
 putchar(i);
 printf("\n");
+}
 return (0);
 }
