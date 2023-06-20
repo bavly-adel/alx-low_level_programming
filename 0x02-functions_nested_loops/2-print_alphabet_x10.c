@@ -18,5 +18,4 @@ putchar(c);
 i++;
 putchar('\n');
 }
-putchar('\n');
 }
