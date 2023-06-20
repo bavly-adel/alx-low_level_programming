@@ -7,7 +7,7 @@
 */
 int _islower(int c)
 {
-if(islower(c))
+if(islower(putchar(c + '0')))
 {
 return (1);
 }
