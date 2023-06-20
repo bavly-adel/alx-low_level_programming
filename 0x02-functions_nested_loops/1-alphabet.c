@@ -4,18 +4,14 @@
 * This function prints "_putchar"
 * Return: Always 0 (Success)
 */
-int main(void)
-{
-print_alphabet();
-return (0);
+void print_alphabet(void) {
+    int i;
+    for (i = 'a'; i <= 'z'; i++) {
+        putchar(i);
+    }
 }
 
-void print_alphabet()
-{
-int i;
-for(i = 97;i < 123;i++)
-{
-putchar(i);
-putchar('\n');
-}
+int main(void) {
+    print_alphabet();
+    return 0;
 }
