@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include "main.h"
+void print_alphabet(void);
 /*
 * main - Entry point for this program
 * This function prints "_putchar"
