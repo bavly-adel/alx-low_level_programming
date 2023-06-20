@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include "main.h"
 /*
 * main - Entry point for this program
 * This function prints "_putchar"
@@ -10,4 +11,9 @@ void print_alphabet(void) {
         _putchar(c);
     }
     _putchar('\n');
+}
+int main(void)
+{
+    print_alphabet();
+    return (0);
 }
