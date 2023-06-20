@@ -5,17 +5,11 @@
 * This function prints "_putchar"
 * Return: Always 0 (Success)
 */
-void print_alphabet_x10(void)
+int _islower(int c)
 {
-char c;
-int i = 0;
-while (i < 10)
+if(islower(c))
 {
-for (c = 'a'; c <= 'z'; c++)
-{
-putchar(c);
+return (1);
 }
-i++;
-putchar('\n');
-}
+return(0);
 }
