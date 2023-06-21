@@ -19,7 +19,7 @@ return (1);
 }
 else
 {
-puts("0");
-return (0);
+puts("00");
+return ();
 }
 }
