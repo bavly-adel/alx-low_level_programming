@@ -5,7 +5,7 @@
 * This function prints "_putchar"
 * Return: Always 0 (Success)
 */
-int _islower (int c)
+int _islower(int c)
 {
 if (c >= 'a' && c <= 'z')
 {
