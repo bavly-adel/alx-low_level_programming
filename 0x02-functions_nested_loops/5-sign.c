@@ -20,6 +20,6 @@ puts("-");
 else
 {
 return (0);
-puts("0")
+puts("0");
 }
 }
