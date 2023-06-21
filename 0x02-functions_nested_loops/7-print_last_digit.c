@@ -5,14 +5,7 @@
 * This function prints "_putchar"
 * Return: Always 0 (Success)
 */
-int _islower(int c)
+int print_last_digit(int n)
 {
-if(c >= 'a' && c <= 'z')
-{
-return (1);
-}
-else
-{
-return(0);
-}
+return (n % 10);
 }
