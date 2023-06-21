@@ -5,14 +5,21 @@
 * This function prints "_putchar"
 * Return: Always 0 (Success)
 */
-int _islower(int c)
+int print_sign(int n)
 {
-if(c >= 'a' && c <= 'z')
+if (n > 0)
 {
+printf("+");
 return (1);
+}
+else if (n < 0)
+{
+printf("-");
+return (-1);
 }
 else
 {
-return(0);
+printf("0");
+return (0);
 }
 }
