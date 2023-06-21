@@ -5,14 +5,10 @@
 * This function prints "_putchar"
 * Return: Always 0 (Success)
 */
-int _islower(int c)
-{
-if(c >= 'a' && c <= 'z')
-{
-return (1);
-}
-else
-{
-return(0);
-}
+int _abs(int n) {
+    if (n < 0) {
+        return -n;
+    } else {
+        return n;
+    }
 }
