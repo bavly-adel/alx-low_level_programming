@@ -5,14 +5,14 @@
 * This function prints "_putchar"
 * Return: Always 0 (Success)
 */
-void jack_bauer(void)
+void jack_bauer(void) {
+int hour, minute;
+for (hour = 0; hour < 24; hour++)
 {
-if(c >= 'a' && c <= 'z')
+for (minute = 0; minute < 60; minute++)
 {
-return (1);
-}
-else
-{
-return(0);
+printf("%02d:%02d\n", hour, minute);
 }
 }
+}
+

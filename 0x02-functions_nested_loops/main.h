@@ -1,2 +1,2 @@
-void print_to_98(int n);
+void jack_bauer(void);
 int main(void);
