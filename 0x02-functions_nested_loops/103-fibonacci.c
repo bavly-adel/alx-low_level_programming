@@ -4,6 +4,7 @@ int main(void) {
   int prev;
   int curr;
   int sum;
+  int next;
 prev = 1;
     curr = 2;
     sum = 0;
@@ -12,7 +13,7 @@ prev = 1;
       sum += curr;
     }
 
-    int next = prev + curr;
+    next = prev + curr;
     prev = curr;
     curr = next;
   }
