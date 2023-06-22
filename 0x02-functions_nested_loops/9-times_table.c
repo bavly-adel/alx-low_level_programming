@@ -5,14 +5,16 @@
 * This function prints "_putchar"
 * Return: Always 0 (Success)
 */
-int _islower(int c)
+void times_table(void)
 {
-if(c >= 'a' && c <= 'z')
+int i, j;
+for (i = 0; i <= 9; i++)
 {
-return (1);
-}
-else
+for (j = 0; j <= 9; j++)
 {
-return(0);
+printf("%2d, ", i * j);
+}
+printf("\n");
 }
 }
+
