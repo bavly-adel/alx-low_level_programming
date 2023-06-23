@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include "main.h"
 /*
-* _isdigit - chech if digit
-* return - 1 (if digit) 0 (else)
+* _isdigit- chech if digit
+* Return: 1 (if digit) 0 (else)
 */
 int _isdigit(int c)
 {
