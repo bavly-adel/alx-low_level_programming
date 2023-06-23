@@ -11,6 +11,7 @@ putchar('\n');
 }
 else
 {
+n--;
 while (n > 0)
 {
 n--;
