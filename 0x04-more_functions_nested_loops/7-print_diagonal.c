@@ -16,6 +16,6 @@ while (n > 0)
 n--;
 putchar(' ');
 }
-putchar('\');
+putchar('\\');
 }
 }
