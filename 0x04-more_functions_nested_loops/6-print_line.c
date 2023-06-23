@@ -14,7 +14,7 @@ else
 while (n > 0)
 {
 putchar('_');
-putchar('\n');
+i--;
 }
 putchar('\n');
 }
