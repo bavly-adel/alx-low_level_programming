@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include "main.h"
 /*
-* print_numbers- chech if digit
-* Return: 1 (if digit) 0 (else)
+* print_numbers - chech if digit
 */
 void print_numbers(void)
 {
