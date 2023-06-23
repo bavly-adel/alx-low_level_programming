@@ -1,2 +1,2 @@
-int mul(int a, int b);
+void print_numbers(void);
 int main(void);
