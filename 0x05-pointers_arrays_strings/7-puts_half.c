@@ -6,8 +6,9 @@
 */
 void puts_half(char *str)
 {
+int start;
+int i;
 int len = 0;
-int next;
 while (str[len] != '\0')
 {
 len++;
@@ -20,7 +21,7 @@ else
 {
 start = (len - 1) / 2;
 }
-for (int i = start; i < len; i++)
+for (i = start; i < len; i++)
 {
 putchar(str[i]);
 }
