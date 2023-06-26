@@ -19,7 +19,7 @@ start = len / 2;
 }
 else
 {
-start = (len - 1) / 2;
+start = (len - 2) / 2;
 }
 for (i = start; i < len; i++)
 {
