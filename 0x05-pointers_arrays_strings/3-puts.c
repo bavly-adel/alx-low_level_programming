@@ -6,10 +6,10 @@
 */
 void _puts(char *str)
 {
-while (*s != '\0')
+while (*str != '\0')
 {
-printf("%c",*s);
-s++;
+printf("%c",*str);
+str++;
 }
 printf("\n");
 }
