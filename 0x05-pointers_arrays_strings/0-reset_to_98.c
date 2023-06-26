@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
 * reset_to_98 - reset to 98
-* n - point to variable
+* @n: pointer to an integer variable
 */
 void reset_to_98(int *n)
 {
