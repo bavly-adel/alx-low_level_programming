@@ -5,7 +5,7 @@
 * @s: pointer to char
 * Return: length of char
 */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 int len;
 len = strlen(*s);
