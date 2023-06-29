@@ -2,6 +2,7 @@
 /**
  * string_toupper - the function name
  * @str : a string to change
+ * Return: upper str
  */
 char *string_toupper(char *str)
 {
