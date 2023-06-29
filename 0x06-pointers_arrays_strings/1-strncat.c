@@ -1,11 +1,12 @@
 #include<stdio.h>
 /**
- * *_strcat - the function name
+ * *_strncat - the function name
  * @dest : desttination parameter
  * @src : source parameter
+ * @n : number as parameter
  * Return: string
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 int i;
 int dest_len = 0;
