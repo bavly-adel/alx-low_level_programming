@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * _strcat - the function name
+ * *_strcat - the function name
  * @dest : desttination parameter
  * @src : source parameter
  * Return : string
