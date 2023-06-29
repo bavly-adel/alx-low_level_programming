@@ -1,11 +1,10 @@
 #include<stdio.h>
 /**
- * *_strcat - the function name
- * @dest: desttination parameter
- * @src: source parameter
- * Return: ret character
+ * _strcat - the function name
+ * @dest : desttination parameter
+ * @src : source parameter
+ * Return : string
  */
-
 char *_strcat(char *dest, char *src)
 {
 int i;
