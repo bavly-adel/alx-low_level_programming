@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * *_strncat - the function name
+ * *_strncpy - the function name
  * @dest : desttination parameter
  * @src : source parameter
  * @n : number as parameter
