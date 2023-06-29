@@ -3,7 +3,7 @@
  * *_strcat - the function name
  * @dest : desttination parameter
  * @src : source parameter
- * Return : string
+ * Return: string
  */
 char *_strcat(char *dest, char *src)
 {
