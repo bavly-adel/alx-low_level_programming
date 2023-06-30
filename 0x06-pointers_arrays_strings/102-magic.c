@@ -1,10 +1,10 @@
 #include<stdio.h>
-#include<ctype.h>
 /**
  * main - the function name
- * Return: number parameter
+ * Return: Always (0)
  */
-int main(void) {
+int main(void)
+{
 int n;
 int a[5];
 int *p;
