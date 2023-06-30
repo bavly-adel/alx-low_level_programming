@@ -1,2 +1,2 @@
-char *cap_string(char *str);
+char *rot13(char *str);
 int main(void);
