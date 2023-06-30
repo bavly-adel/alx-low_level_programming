@@ -2,11 +2,12 @@
 #include <ctype.h>
 
 void print_buffer(char *b, int size) {
-    if (size <= 0) {
-        printf("\n");
-        return;
-    }
-    int i, j;
+int i;
+int j;
+if (size <= 0) {
+printf("\n");
+return;
+}
     for (i = 0; i < size; i += 10) {
         printf("%08x ", i);
         for (j = 0; j < 10; j++) {
