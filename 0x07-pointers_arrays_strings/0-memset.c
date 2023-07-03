@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * _memset - function name
+ * *_memset - function name
  * @s: pointer s to a memory area
  * @b: constant byte b
  * @n: number of bytes to fill
