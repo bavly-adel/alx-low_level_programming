@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * *_strchr - function name
+ * *_strchr - the function name
  * @s: pointer s to a memory area
  * @c: constant byte b
  * Return : if exist (s) else (NULL)
@@ -19,5 +19,5 @@ if (c == '\0')
 {
 return (s);
 }
-return NULL;
+return (NULL);
 }
