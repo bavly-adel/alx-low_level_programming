@@ -18,7 +18,7 @@ nptr++;
 }
 if (*nptr == '\0')
 {
-return haystack;
+return (haystack);
 }
 haystack++;
 }
