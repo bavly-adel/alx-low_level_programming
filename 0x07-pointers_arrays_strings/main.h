@@ -1,2 +1,2 @@
-char *_strchr(char *s, char c);
+char *_strncat(char *dest, char *src, int n);
 int main(void);
