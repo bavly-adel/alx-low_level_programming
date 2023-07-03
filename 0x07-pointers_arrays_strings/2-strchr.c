@@ -3,7 +3,7 @@
  * *_strchr - function name
  * @s: pointer s to a memory area
  * @c: constant byte b
- * Return : pointer to the memory area s
+ * Return : if exist (s) else (NULL)
  */
 char *_strchr(char *s, char c)
 {
