@@ -7,10 +7,9 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-char *ptr = accept;
 while (*s != '\0')
 {
-*ptr = accept;
+char *ptr = accept;
 while (*ptr != '\0')
 {
 if (*s == *ptr)
