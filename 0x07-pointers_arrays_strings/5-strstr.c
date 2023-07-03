@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
  * *_strstr - function name
- * @haystack: pointer s to a memory area
- * @needle: constant byte b
- * Return : char to tea
+ * @haystack : pointer s to a memory area
+ * @needle : constant byte b
+ * Return: char to tea
  */
 char *_strstr(char *haystack, char *needle)
 {

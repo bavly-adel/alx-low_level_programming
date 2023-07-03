@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
  * *_strpbrk - function name
- * @s: pointer s to a memory area
- * @accept: constant byte b
- * Return : pointer to the memory area s
+ * @s : pointer s to a memory area
+ * @accept : constant byte b
+ * Return: pointer to the memory area s
  */
 char *_strpbrk(char *s, char *accept)
 {

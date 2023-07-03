@@ -1,9 +1,9 @@
 #include<stdio.h>
 /**
  * _strspn - function name
- * @s: pointer s to a memory area
- * @accept: constant byte b
- * Return : pointer to the memory area s
+ * @s : pointer s to a memory area
+ * @accept : constant byte b
+ * Return: pointer to the memory area s
  */
 unsigned int _strspn(char *s, char *accept)
 {
