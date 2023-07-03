@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
  * *_strchr - the function name
- * @s: pointer s to a memory area
- * @c: constant byte b
+ * @s : pointer s to a memory area
+ * @c : constant byte b
  * Return : if exist (s) else (NULL)
  */
 char *_strchr(char *s, char c)
