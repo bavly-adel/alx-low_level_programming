@@ -1,2 +1,2 @@
-void print_diagsums(int *a, int size);
+unsigned int _strspn(char *s, char *accept);
 int main(void);
