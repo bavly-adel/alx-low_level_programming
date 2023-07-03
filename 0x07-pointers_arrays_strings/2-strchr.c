@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * _strchr - function name
+ * *_strchr - function name
  * @s: pointer s to a memory area
  * @c: constant byte b
  * Return : pointer to the memory area s
@@ -11,7 +11,7 @@ while (*s != '\0')
 {
 if (*s == c)
 {
-return s;
+return (s);
 }
 s++;
 }
