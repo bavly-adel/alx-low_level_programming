@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
  * print_diagsums - function name
- * @a: pointer s to a memory area
- * @size: the size of num
+ * @a : pointer s to a memory area
+ * @size : the size of num
  */
 void print_diagsums(int *a, int size)
 {
@@ -11,9 +11,8 @@ int sum2 = 0;
 int i;
 for (i = 0; i < size; i++)
 {
-sum1 += *(a + i*size + i);
-sum2 += *(a + i*size + size - i - 1);
+sum1 += a[i * size + i];
+sum2 += a[(i + 1) * (size - 1)];
 }
-printf("Sum of diagonal 1: %d\n", sum1);
-printf("Sum of diagonal 2: %d\n", sum2);
+printf("%d, %d\n", sum1, sum2);
 }
