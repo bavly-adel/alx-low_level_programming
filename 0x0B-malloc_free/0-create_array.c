@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <stdlib.h>
 /**
  * *create_array - function name
  * @size : sixeof memory
@@ -12,7 +13,7 @@ if (size == 0)
 {
 return (NULL);
 }
-arr = malloc(size * sizeof(char));
+*arr = malloc(size * sizeof(char));
 if (arr == NULL)
 {
 return (NULL);
