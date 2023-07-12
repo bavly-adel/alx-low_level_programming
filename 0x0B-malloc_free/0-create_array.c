@@ -7,13 +7,12 @@
  * Return: char arr point
  */
 char *create_array(unsigned int size, char c) {
-char *arr;
 unsigned int i;
+char *arr = malloc(size * sizeof(char));
 if (size == 0)
 {
 return (NULL);
 }
-*arr = malloc(size * sizeof(char));
 if (arr == NULL)
 {
 return (NULL);
