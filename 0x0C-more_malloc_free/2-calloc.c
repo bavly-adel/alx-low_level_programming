@@ -4,7 +4,8 @@
 /**
  * *_calloc - function name
  * @nmemb : first argument
- * @size : return pointer to
+ * @size : second to arg
+ * Return: ret null or stttr
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
