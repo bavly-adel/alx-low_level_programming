@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <limits.h>
 /**
  * malloc_checked - function name
  * @b : first argument
