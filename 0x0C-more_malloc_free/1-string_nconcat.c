@@ -1,15 +1,19 @@
 #include <stdlib.h>
 #include<stdio.h>
-#include <limits.h>
+#include <string.h>
 /**
- * *malloc_checked - function name
- * @b : first argument
+ * *string_nconcat - function name
+ * @s1 : first argument
+ * @s2 : second arg
+ * @n : third
  * Return: return pointer to
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 char *result;
-unsigned int s1_len = 0, s2_len = 0, i;
+unsigned int s1_len = 0;
+unsigned int s2_len = 0;
+unsigned int i;
 if (s1 == NULL)
 {
 s1 = "";
