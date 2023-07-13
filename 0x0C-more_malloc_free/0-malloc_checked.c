@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include<stdio.h>
 #include <limits.h>
 /**
@@ -11,6 +12,6 @@ if (ptr == NULL)
 {
 fprintf(stderr, "Error: malloc failed\n");
 exit(98);
-return ptr;
 }
+return ptr;
 }
