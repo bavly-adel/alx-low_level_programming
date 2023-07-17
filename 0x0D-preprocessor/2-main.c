@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - func name
+ * Return: always ret 0
  */
 int main(void)
 {
